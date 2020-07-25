@@ -1,13 +1,13 @@
 module.exports = {
   siteMetadata: {
-    siteTitle: `@rocketseat/gatsby-theme-docs`,
-    defaultTitle: `@rocketseat/gatsby-theme-docs`,
-    siteTitleShort: `gatsby-theme-docs`,
-    siteDescription: `Out of the box Gatsby Theme for creating documentation websites easily and quickly`,
-    siteUrl: `https://rocketdocs.netlify.com`,
-    siteAuthor: `@rocketseat`,
+    siteTitle: `코딩하는펭귄의 Today I Learned`,
+    defaultTitle: `코딩하는펭귄의 Today I Learned`,
+    siteTitleShort: `코딩하는펭귄의 Today I Learned`,
+    siteDescription: `개발을 하면서 새롭게 얻은 지식 조각을 기록합니다📝`,
+    siteUrl: `https://cooding-penguin-til.netlify.app/`,
+    siteAuthor: `CoodingPenguin`,
     siteImage: `/banner.png`,
-    siteLanguage: `en`,
+    siteLanguage: `ko`,
     themeColor: `#7159c1`,
     basePath: `/`,
     footer: `Theme by Rocketseat`,
@@ -43,7 +43,7 @@ module.exports = {
     {
       resolve: `gatsby-plugin-canonical-urls`,
       options: {
-        siteUrl: `https://rocketdocs.netlify.com`,
+        siteUrl: `https://cooding-penguin-til.netlify.app/`,
       },
     },
     `gatsby-plugin-offline`,
