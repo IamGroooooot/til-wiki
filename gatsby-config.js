@@ -19,7 +19,7 @@ module.exports = {
         configPath: `src/config`,
         docsPath: `src/docs`,
         githubUrl: `https://github.com/CoodingPenguin/til-wiki`,
-        baseDir: `/`,
+        baseDir: ``,
       },
     },
     {
