@@ -2,7 +2,7 @@ module.exports = {
   siteMetadata: {
     siteTitle: `코딩하는펭귄의 Today I Learned`,
     defaultTitle: `코딩하는펭귄의 Today I Learned`,
-    siteTitleShort: `코딩하는펭귄의 Today I Learned`,
+    siteTitleShort: `코딩하는펭귄의 TIL`,
     siteDescription: `개발을 하면서 새롭게 얻은 지식 조각을 기록합니다📝`,
     siteUrl: `https://cooding-penguin-til.netlify.app/`,
     siteAuthor: `CoodingPenguin`,
