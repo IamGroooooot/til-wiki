@@ -76,7 +76,7 @@ export default function GlobalStyle() {
             no-historical-ligatures no-contextual;
         }
         a {
-          color: #737380;
+          color: #0687f0;
           font-weight: bold;
           &:hover {
             color: ${theme.colors.primary}!important;
