@@ -29,8 +29,9 @@ export default function GlobalStyle() {
         h1 {
           font-size: 32px;
           color: #333;
-          font-weight: bold;
+          font-weight: black;
           margin-bottom: 24px;
+          padding-bottom: 5px;
         }
         h2,
         h3,
