@@ -38,12 +38,14 @@ export default function GlobalStyle() {
         h5,
         h6 {
           color: #333;
-          margin: 24px 0 16px 0;
+          margin: 24px 0 12px 0;
           font-weight: normal;
         }
         h2 {
           font-size: 24px;
           font-weight: bold;
+          padding-bottom: 5px;
+          border-bottom: 1px solid #eee;
         }
         h3 {
           font-size: 18px;
