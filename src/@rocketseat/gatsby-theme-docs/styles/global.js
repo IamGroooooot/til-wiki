@@ -57,7 +57,7 @@ export default function GlobalStyle() {
           color: #444;
           font-size: 16px;
           line-height: 28px;
-          margin-bottom: 16px;
+          margin-bottom: 8px;
           font-weight: 400;
         }
         code.inline-code {
@@ -124,9 +124,10 @@ export default function GlobalStyle() {
         }
         ul,
         ol {
-          color: #737380;
-          padding-left: 15px;
-          margin-bottom: 16px;
+          color: #444;
+          padding-left: 16px;
+          margin-bottom: 2px;
+          margin-left: 6px;
           li {
             line-height: 28px;
           }
