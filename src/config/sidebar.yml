@@ -1,14 +1,14 @@
 # Sidebar navigation
 
-- label: 'Introduction'
-  link: '/'
-- label: 'Getting started'
-  link: '/getting-started'
+- label: "코딩하는펭귄"
+  link: "/"
+- label: "Getting started"
+  link: "/getting-started"
 - label: Usage
   items:
-    - label: 'Creating docs'
-      link: '/usage/creating-docs'
-    - label: 'Navigation'
-      link: '/usage/navigation'
-    - label: 'Shadowing'
-      link: '/usage/shadowing'
+    - label: "Creating docs"
+      link: "/usage/creating-docs"
+    - label: "Navigation"
+      link: "/usage/navigation"
+    - label: "Shadowing"
+      link: "/usage/shadowing"

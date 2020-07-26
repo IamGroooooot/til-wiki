@@ -70,7 +70,7 @@ export default function GlobalStyle() {
           font-size: 14px;
           border-radius: 5px;
           border: 1.2px solid #00a2ff;
-          font-family: Monaco, "Noto Sans KR", sans-serif;
+          font-family: Menlo, Monaco, "Noto Sans KR", sans-serif;
           font-feature-settings: "clig" 0, "calt" 0;
           font-variant: no-common-ligatures no-discretionary-ligatures
             no-historical-ligatures no-contextual;
@@ -154,8 +154,7 @@ export default function GlobalStyle() {
           top: 0;
         }
         pre[class*="language-"] code {
-          font-family: SFMono-Regular, Menlo, Monaco, Consolas,
-            "Liberation Mono", "Courier New", monospace;
+          font-family: Menlo, Monaco, "Noto Sans KR";
           font-variant: no-common-ligatures no-discretionary-ligatures
             no-historical-ligatures no-contextual;
         }
@@ -231,6 +230,9 @@ export default function GlobalStyle() {
         pre[class~="language-flow"]::before {
           content: "flow";
           background: #e8bd36;
+        }
+        pre > div:first-child {
+          font-family: "Noto Sans KR", sans-serif;
         }
       `}
     />
