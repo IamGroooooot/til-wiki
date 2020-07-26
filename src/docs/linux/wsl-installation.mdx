@@ -1,0 +1,44 @@
+---
+title: 윈도우 WSL1 설치방법
+---
+
+> 이번에 나온 WSL2가 아닌 WSL1의 설치방법을 설명합니다.
+
+## WSL이란?
+
+WSL은 Windows Subsystem for Linux의 줄임말로 Windows에서리눅스 명령어를 `cmd`, `powershell` 등을 통해 직접 실행할 수 있는 기능이다. 굳이 그 느린 virtualbox를 깔고 실행할 필요가 없단 말씀!
+
+## 설치 방법
+
+### 1. Windows 버전 확인
+
+`설정 > 시스템 > 정보` 혹은 검색해서 `PC정보`에서 WSL 시스템 요구 사항 확인한다. 버전이 낮을 경우 `설정 > 업데이트 및 복구 > Windows 업데이트` 에서 업데이트 한다.
+
+- `OS` : Windows 10 버전 1607 이상
+- `아키텍처` : x64
+- `계정` : 이메일 계정으로 PC 로그인
+
+### 2. WSL 설치
+
+#### 제어판
+
+`제어판 > 프로그램 > 프로그램 및 기능 - Windows 기능 켜기/끄기` 에서 **Linux용 Windows 하위 시스템** 체크
+
+#### Powershell
+
+```
+Enable-WindowsOptionalFeature -Online -FeatureName Microsoft-Windows-Subsystem-Linux
+```
+
+### 3. 리눅스 배포판 설치
+
+**Microsoft Store**에서 **Windows에서 Linux 실행하기**를 검색한다. `Ubuntu`, `Debian`, `Kali Linux` 등 다양한 배포판을 제공한다. 나는 무난한 `Ubuntu` 설치!
+
+### 4. 계정 설정
+
+깔린 리눅스를 실행하면 WSL 설치 작업이 진행된다. **사용자 계정**과 **비밀번호**를 입력하면 설치과정이 완료된다.
+
+## 참고
+
+- [WEBDIR - WSL(Windows Subsystem for Linux 소개)](https://webdir.tistory.com/540)
+- [WEBDIR - 왼도우즈에서 리눅스 설치](https://webdir.tistory.com/541)

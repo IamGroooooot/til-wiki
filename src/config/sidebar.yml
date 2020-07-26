@@ -2,13 +2,7 @@
 
 - label: "코딩하는펭귄"
   link: "/"
-- label: "Getting started"
-  link: "/getting-started"
-- label: Usage
+- label: linux
   items:
-    - label: "Creating docs"
-      link: "/usage/creating-docs"
-    - label: "Navigation"
-      link: "/usage/navigation"
-    - label: "Shadowing"
-      link: "/usage/shadowing"
+    - label: "윈도우 WSL1 설치방법"
+      link: "/linux/wsl-installation"
